@@ -2,7 +2,7 @@ from microbit import *
 import radio
 import time
 
-radio.config(channel = 0, power = 7)
+radio.config(channel = 0, power = 7, queue = 1)
 
 modes = ["none", "bus", "none", "theft"]
 mode = 0

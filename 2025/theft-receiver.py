@@ -1,4 +1,9 @@
 from microbit import *
+import radio
+
+display.show(Image.HAPPY)
+
+radio.config(channel=0) # Channel to use from number on handout
 
 while True:
     message = radio.receive()
